@@ -37,7 +37,7 @@ const Register = () => {
    
     <div className='container'>
       <div className="auth_form">
-        <div className="auto-top-form">log in: code tracker</div>
+        <div className="auto-top-form">register: code tracker</div>
         <img src={img} alt="" className="auth-img" />
         <form action="auth_form" onSubmit={submit}>
         <div className="auth-form-in-wrapper">
