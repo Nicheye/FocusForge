@@ -281,6 +281,7 @@ html{
     background: #C5C3C4;
     width: 100%;
     margin: 0 auto;
+    display: block;
     margin-top: 7px;
   }
 
