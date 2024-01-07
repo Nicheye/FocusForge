@@ -71,14 +71,14 @@ const Home = () => {
 
 
       <div className="hello-block">
-        <div className="hello-top">
+        <div className="hello-top code">
         Run this code on your PC
         </div>
-        <div >
-        <a href={code} download="code" target='_blank'>
+        <div>
+        <a href={code} download="code" target='_blank' className='your_key_value code'>
         <button className='your_key_value code'>Download code</button>
         </a>
-          </div>
+        </div>
       </div>
     </div>
     

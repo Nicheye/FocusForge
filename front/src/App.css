@@ -249,6 +249,9 @@ html{
     line-height: normal;
     margin-bottom: 30px;
   }
+  .hello-top.code{
+    margin-bottom: 0px
+  }
   .your_key_title{
     color: #000;
     text-align: center;
