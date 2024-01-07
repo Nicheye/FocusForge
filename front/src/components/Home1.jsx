@@ -72,14 +72,12 @@ const Home = () => {
 
       <div className="hello-block">
         <div className="hello-top">
-        RUN THIS CODE ON YOUR PC
+        Run this code on your PC
         </div>
         
-        <div className="your_key_value code">Code</div>
-
         <div >
         <a href={code} download="code" target='_blank'>
-        <button className='auth_btn'>Download code</button>
+        <button className='your_key_value code'>Download code</button>
         </a>
           </div>
       </div>
