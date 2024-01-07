@@ -58,7 +58,7 @@ const Home = () => {
     
     <section>
       <Navigate/>
-      <div className="container">
+      
 
       
       <div className="big-block">
@@ -103,7 +103,7 @@ const Home = () => {
       </div>
     </div>
     </div>
-    </div>
+    
     </section>
     
     
