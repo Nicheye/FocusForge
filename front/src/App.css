@@ -258,7 +258,8 @@ html{
     font-weight: 400;
     line-height: normal;
   }
-  .your_key_value{
+  .your_key_value,
+  .your_key_value button{
     margin-top: 10px;
     border-top: 3px solid #FFF;
     border-left: 3px solid #FFF;
@@ -273,8 +274,8 @@ html{
     font-weight: 400;
     line-height: normal;
   }
-  .your_key_value.code{
-    max-width: 360px;
+  .your_key_value.code button{
+    max-width: 100%;
     margin: 0 auto;
   }
 
