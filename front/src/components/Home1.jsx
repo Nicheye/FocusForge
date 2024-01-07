@@ -63,7 +63,9 @@ const Home = () => {
       
       <div className="big-block">
       
-      
+      <div className="hello-wrapper">
+
+     
       <div className="hello-block">
         <div className="hello-top">
           Hello {userData.username}
@@ -83,7 +85,7 @@ const Home = () => {
         </a>
         
       </div>
-    
+      </div>
     
     <div className="side-table">
 
