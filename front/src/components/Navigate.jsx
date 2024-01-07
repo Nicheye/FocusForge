@@ -62,7 +62,7 @@ const Navigate = () => {
     {isAuth ? 
     <Link to="/logout" className="navbar-link-group">
     <img src={logout} alt="" className="navbar-link-img" />
-    <div className="navbar-link-title">/LOG OUT</div>
+    <div className="navbar-link-title">/LOG_OUT</div>
     </Link> :              
     <Link to="/login" className="navbar-link-group">
     <img src={login} alt="" className="navbar-link-img" />
