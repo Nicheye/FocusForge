@@ -4,7 +4,7 @@ import requests
 import threading
 import pygetwindow as gw
 from time import sleep
-global id 
+
 id=int(input("your id"))
 def is_process_running(process_name):
     cmd = 'tasklist /fi "imagename eq {}"'.format(process_name)
@@ -33,7 +33,7 @@ class TimeTracker:
         # print("Tracking started at:", self.start_time)
         # print(is_process_running("Postman.exe"))
         while True:
-            if is_process_running("Postman.exe") == False:
+            if is_process_running("Code.exe") == False:
                 self.stop()
                 self.start()
                 break
