@@ -277,7 +277,7 @@ html{
     font-weight: 400;
     line-height: normal;
   }
-  .your_key_value.code button{
+  .your_key_value.code{
     
     background: #C5C3C4;
     max-width: 100%;
