@@ -483,9 +483,9 @@ margin-top: 5px;
   line-height: normal;
 }
 .big-block{
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   gap: 29px;
   max-width: 1200px;
-  justify-content: center;
+  justify-content: center; */
 }
