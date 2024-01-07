@@ -119,7 +119,7 @@ class LeaderBoard(APIView):
 		if type=='two_weeks':
 			two_weeks_ago = datetime.now() - timedelta(days=14)
 			data=[]
-			for user in User.objects.all()[:10]:
+			for user in User.objects.all():
 				lasttwoweeks = AddTime.objects.filter(created_at__gte=two_weeks_ago,created_by=user)
 				sum = 0
 				for add in lasttwoweeks:
@@ -130,7 +130,8 @@ class LeaderBoard(APIView):
 					'hours':sum
 				}
 				data.append(dict)
-			sorted_list = sorted(data, key=itemgetter('hours'),reverse=True)
+			
+			sorted_list = sorted(data[:5], key=itemgetter('hours'),reverse=True)
 			
 			return Response(sorted_list)
 		return Response({"123":"123"})
