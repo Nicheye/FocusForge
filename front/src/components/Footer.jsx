@@ -16,8 +16,8 @@ const Footer = () => {
 
   return (
 	<footer className=''>
-		<div className="footer-code-link">BY <span>codium</span></div>
-		<div className="designer-code-link"> & artsharov_design</div>
+		<div className="footer-code-link">BY <a href='https://www.youtube.com/channel/UCDg5H-rTvMSUPVwrtsPQATw'>codium</a></div>
+		<a className="designer-code-link" href='https://vk.com/artsharov_design'> & artsharov_design</a>
 		
 		<div className="current-time">{currentTime.toLocaleTimeString()}</div>
 	</footer>
