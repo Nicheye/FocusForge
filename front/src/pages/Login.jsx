@@ -22,7 +22,7 @@ const config = {
   withCredentials: true
 };
 
-const { data } = await axios.post('http://localhost:8000/token/ ', user, config);
+const { data } = await axios.post('https://codium123.pythonanywhere.com//token/ ', user, config);
   localStorage.clear();
   console.log(data.access)
   localStorage.setItem('access_token',data.access);

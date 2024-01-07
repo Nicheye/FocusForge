@@ -12,7 +12,7 @@ const Stats = () => {
 		(async () =>{
 			try{
 			const {data} = await axios.get(
-				'http://127.0.0.1:8000/api/v1/main/stats',{
+				'https://codium123.pythonanywhere.com/api/v1/main/stats',{
 				headers:{
 					'Content-Type':'application/json'
 				},

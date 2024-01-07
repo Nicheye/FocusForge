@@ -10,7 +10,7 @@ const LeaderBoard = () => {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          `http://127.0.0.1:8000/api/v1/main/leaderboard/${type}/`,
+          `https://codium123.pythonanywhere.com/api/v1/main/leaderboard/${type}/`,
           {
             headers: {
               'Content-Type': 'application/json',

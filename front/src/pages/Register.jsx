@@ -17,7 +17,7 @@ const Register = () => {
 // Create the POST requuest
 
 
-    await fetch('http://localhost:8000/api/v1/register/',{
+    await fetch('https://codium123.pythonanywhere.com/api/v1/register/',{
       method:'POST',
       headers:{'Content-Type':"application/json"},
       body: JSON.stringify(

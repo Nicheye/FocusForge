@@ -11,7 +11,7 @@ const Logout = () => {
             },
             withCredentials: true
             };
-          const {data} = await axios.post('http://localhost:8000/api/v1/logout/',{
+          const {data} = await axios.post('https://codium123.pythonanywhere.com/api/v1/logout/',{
             refresh_token: localStorage.getItem('refresh_token')
           },config);
           localStorage.clear();

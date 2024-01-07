@@ -2,20 +2,19 @@ import React from 'react'
 import { useEffect,useState } from 'react'
 import axios from 'axios'
 import code from '../assets/timer.py'
-import { redirect } from "react-router-dom";
 const Home = () => {
   const [userData,setUserData] = useState('');
 
   useEffect(() => {
     if(localStorage.getItem('access_token') ===null){
-      return redirect("/login");
+      window.location.href = '/login'
 
     }
     else{
       (async () =>{
         try{
           const {data} = await axios.get(
-            'http://localhost:8000/api/v1/home/',{
+            'https://codium123.pythonanywhere.com/api/v1/home/',{
               headers:{
                 'Content-Type':'application/json'
               },
