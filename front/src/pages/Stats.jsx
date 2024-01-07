@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios';
+import Navigate from '../components/Navigate';
 const Stats = () => {
 	const [data,setData] = useState('');
 
@@ -30,6 +31,7 @@ const Stats = () => {
 	
   return (
 	<section>
+		<Navigate/>
 		<div className="stats">
 		<div className="stats_title">Your personal statistics:</div>
 		<div className="stats_block_wrapper">

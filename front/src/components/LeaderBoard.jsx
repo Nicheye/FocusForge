@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-
+import Navigate from './Navigate';
 const LeaderBoard = () => {
   const { type } = useParams();
   const [leaders, setLeaders] = useState([]);
@@ -29,6 +29,7 @@ const LeaderBoard = () => {
   console.log(leaders)
   return (
     <section>
+      <Navigate/>
       <div className="leaderboard">
 		<div className="leader_board_titlee">{type}</div>
         {leaders.map((leader,id) => {

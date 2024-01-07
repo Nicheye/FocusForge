@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect,useState } from 'react'
 import axios from 'axios'
 import code from '../assets/timer.py'
+import Navigate from './Navigate'
 const Home = () => {
   const [userData,setUserData] = useState('');
 
@@ -54,7 +55,10 @@ const Home = () => {
   }, []);
 
   return (
+    
     <section>
+      <Navigate/>
+      
       <div className="container">
       
       <div className="hello-block">

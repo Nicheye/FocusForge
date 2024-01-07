@@ -1,11 +1,13 @@
 import React from 'react'
 import LeaderBoard from '../components/LeaderBoard'
 import { Link } from 'react-router-dom'
+import Navigate from '../components/Navigate'
 const LeaderBoardSelect = () => {
 	
   
   return (
 	<section>
+		<Navigate/>
 		<div className="leader-select">
 			<div className="leader_select_title">Select a category:	</div>
 			<div className="leader_select_wrapper">
