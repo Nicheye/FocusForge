@@ -278,6 +278,7 @@ html{
     line-height: normal;
   }
   .your_key_value.code button{
+    background: #C5C3C4;
     max-width: 100%;
     margin: 0 auto;
   }
