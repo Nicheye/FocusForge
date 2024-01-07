@@ -68,7 +68,7 @@ const Home = () => {
      
       <div className="hello-block">
         <div className="hello-top">
-          Hello {userData.username}
+          Hello {userData.username} !
         </div>
         <div className="your_key_title">your personal key</div>
         <div className="your_key_value">{userData.personal_key}</div>
