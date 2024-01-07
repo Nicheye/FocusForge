@@ -58,7 +58,7 @@ const Home = () => {
     
     <section>
       <Navigate/>
-      
+      <div className="big-block">
       <div className="container">
       
       <div className="hello-block">
@@ -70,7 +70,7 @@ const Home = () => {
       </div>
 
 
-      <div className="hello-block">
+      <div className="hello-block" style={{marginTop:"29px"}}>
         <div className="hello-top code">
         Run this code on your PC
         </div>
@@ -98,6 +98,7 @@ const Home = () => {
           );
         })}
       </div>
+    </div>
     </div>
     </section>
     

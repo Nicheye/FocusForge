@@ -482,27 +482,8 @@ margin-top: 5px;
   font-weight: 400;
   line-height: normal;
 }
-.side-table .leaderboard{
-  min-height: 429px;
-}
-@media (min-width:1500px) {
-  .side-table{
-    position: fixed;
-    top: 185px;
-    right: 10%;
-    
-    
-  }
-  .side-table .leaderboard{
-    min-height: 429px;
-  }
-}
-@media (max-width:1500px) {
-  .side-table{
-   position: relative;
-
-  }
-  .side-table .leaderboard{
-    min-height: 429px;
-  }
+.big-block{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
 }
