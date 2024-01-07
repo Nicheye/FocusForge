@@ -74,9 +74,9 @@ const Home = () => {
         <div className="hello-top code">
         Run this code on your PC
         </div>
-        <div>
-        <a href={code} download="code" target='_blank' className='your_key_value code'>
-        <button >Download code</button>
+        <div className='your_key_value code'>
+        <a href={code} download="code" target='_blank' >
+        <button>Download code</button>
         </a>
         </div>
       </div>
