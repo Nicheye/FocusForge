@@ -45,7 +45,7 @@ const Navigate = () => {
 </nav> */}
 <nav className='navbar'>
   <div className="container">
-    <Link to="" className="navbar-link-group">
+    <Link to="/" className="navbar-link-group">
       <img src={pc} alt="" className="navbar-link-img" />
       <div className="navbar-link-title">/Main_Page</div>
     </Link>
