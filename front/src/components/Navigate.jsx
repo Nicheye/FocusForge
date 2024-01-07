@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import pc from '../assets/images/pc_image.png'
 import psp from '../assets/images/psp.png'
 import cup from '../assets/images/cup.png'
-import logout from '../assets/images/logout.svg'
+import logout from '../assets/images/logout.png'
 import login from '../assets/images/login.svg'
 const Navigate = () => {
 	const [isAuth,setIsAuth] = useState(false)
