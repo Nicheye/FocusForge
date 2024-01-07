@@ -75,7 +75,7 @@ const Home = () => {
         Run this code on your PC
         </div>
         <div>
-        <a href={code} download="code" target='_blank' className='your_key_value code'>
+        <a href={code} download="code" target='_blank' >
         <button className='your_key_value code'>Download code</button>
         </a>
         </div>
