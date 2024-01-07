@@ -1,0 +1,113 @@
+html{
+	box-sizing: border-box;
+  }
+  *,
+  *::after,
+  *::before{
+	box-sizing: inherit;
+  
+
+  }
+  
+  ul[class],
+  ol[class]{
+	padding: 0;
+  }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd{
+	margin: 0;
+  }
+  ul[class]{
+	list-style: none;
+  }
+  img{
+	max-width: 100%;
+	display: block;
+  }
+  input,
+  button,
+  textarea,
+  select{
+	font: inherit;
+  }
+  a{
+	text-decoration: none;
+  }
+  section{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .container{
+    margin: 0 auto;
+    
+    max-width: 1200px;
+    padding: 10px;
+    background: #d6d6d6;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+  }
+  .type{
+    padding: 5px;
+    background: rgb(60, 60, 95);
+    font-size: 20px;
+    color: #fff;
+  }
+  .link{
+    font-size: 20px;
+    color: #348174;
+  }
+  .title{
+    margin-top: 40px;
+    margin-bottom: 29px;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+  }
+  .link-item{
+    margin-bottom: 20px;
+  }
+  .descr{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  .github {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: darkmagenta;
+  }
+  .youtube{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: crimson;
+  }
