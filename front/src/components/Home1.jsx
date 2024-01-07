@@ -2,12 +2,13 @@ import React from 'react'
 import { useEffect,useState } from 'react'
 import axios from 'axios'
 import code from '../assets/timer.py'
+import { redirect } from "react-router-dom";
 const Home = () => {
   const [userData,setUserData] = useState('');
 
   useEffect(() => {
     if(localStorage.getItem('access_token') ===null){
-      window.location.href = '/login'
+      return redirect("/login");
 
     }
     else{
