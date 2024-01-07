@@ -58,8 +58,11 @@ const Home = () => {
     
     <section>
       <Navigate/>
-      <div className="big-block">
       <div className="container">
+
+      
+      <div className="big-block">
+      
       
       <div className="hello-block">
         <div className="hello-top">
@@ -80,7 +83,7 @@ const Home = () => {
         </a>
         
       </div>
-    </div>
+    
     
     <div className="side-table">
 
@@ -98,6 +101,7 @@ const Home = () => {
           );
         })}
       </div>
+    </div>
     </div>
     </div>
     </section>
