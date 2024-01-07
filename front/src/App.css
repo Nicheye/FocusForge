@@ -278,9 +278,8 @@ html{
     line-height: normal;
   }
   .your_key_value.code{
-    
     background: #C5C3C4;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 7px;
   }
