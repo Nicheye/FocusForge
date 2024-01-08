@@ -50,7 +50,7 @@ class TimeTracker:
                 
                 myobj = {'minutes': f'{round(res)}',
                          'type':'code'}
-                r = requests.post(f'http://127.0.0.1:8000/api/v1/main/{id}/',json=myobj)
+                r = requests.post(f'https://Codium123.pythonanywhere.com/api/v1/main/{id}/',json=myobj)
             sleep(3)
 
 
@@ -92,7 +92,7 @@ class FigmaTimeTracker:
                 
                 myobj = {'minutes': f'{round(res)}',
                          'type':'figma'}
-                r = requests.post(f'http://127.0.0.1:8000/api/v1/main/{id}/',json=myobj)
+                r = requests.post(f'https://Codium123.pythonanywhere.com/api/v1/main/{id}/',json=myobj)
             sleep(3)
 
 
@@ -131,7 +131,7 @@ class ObsTimeTracker:
                 
                 myobj = {'minutes': f'{round(res)}',
                          'type':'obs'}
-                r = requests.post(f'http://127.0.0.1:8000/api/v1/main/{id}/',json=myobj)
+                r = requests.post(f'https://Codium123.pythonanywhere.com/api/v1/main/{id}/',json=myobj)
             sleep(3)
 
 
